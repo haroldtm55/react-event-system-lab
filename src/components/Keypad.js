@@ -1,1 +1,10 @@
+import React, { Component } from "react";
+
 // Code Keypad Component Here
+export default class Keypad extends Component {
+  render() {
+    return (
+      <input type="password" onKeyUp={()=> console.log('Entering password...')}></input>
+    )
+  }
+}
